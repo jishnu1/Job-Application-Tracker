@@ -1,0 +1,8 @@
+{
+    "INPUT_FILE": "example_files/tracker_old.csv",
+    "OUTPUT_FILE": "example_files/tracker_new.csv",
+    "ERROR_FILE": "example_files/error.csv",
+    "DATA_FILE": "example_files/data.json",
+    "RETRIES": 3,
+    "UPDATE": 1
+}
