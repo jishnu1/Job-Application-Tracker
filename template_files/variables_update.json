@@ -1,8 +1,0 @@
-{
-    "INPUT_FILE": "template_files/tracker_old.csv",
-    "OUTPUT_FILE": "template_files/tracker_new.csv",
-    "ERROR_FILE": "template_files/error.csv",
-    "DATA_FILE": "template_files/data.json",
-    "RETRIES": 3,
-    "UPDATE": 1
-}

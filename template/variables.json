@@ -1,0 +1,7 @@
+{
+    "INPUT_FILE": "template/tracker_old.csv",
+    "OUTPUT_FILE": "template/tracker_new.csv",
+    "ERROR_FILE": "template/error.csv",
+    "DATA_FILE": "template/data.json",
+    "RETRIES": 3
+}

@@ -1,6 +1,0 @@
-Tier,Company,Industry,Size,Location,Rating,Glassdoor,Position,Jobs,Status,Notes
-$,Google,Internet & Web Services,10K+,"Mountain View, CA",4.5,"https://www.glassdoor.com/Overview/Working-at-Google-EI_IE9079.11,17.htm",Software Engineer,https://careers.google.com/,reject,
-A,Microsoft,Computer Hardware Development,10K+,"Redmond, WA",4.4,"https://www.glassdoor.com/Overview/Working-at-Microsoft-EI_IE1651.11,20.htm",Software Engineer,https://careers.microsoft.com/us/en/,apply,
-A,Meta,Internet & Web Services,10K+,"Menlo Park, CA",4.3,"https://www.glassdoor.com/Overview/Working-at-Meta-EI_IE40772.11,15.htm",Software Engineer,https://www.metacareers.com/,apply,
-B,Apple,Computer Hardware Development,10K+,"Cupertino, CA",4.2,"https://www.glassdoor.com/Overview/Working-at-Apple-EI_IE1138.11,16.htm",Software Engineer,https://www.apple.com/careers/us/,apply,
-B,Amazon,Internet & Web Services,10K+,"Seattle, WA",3.8,"https://www.glassdoor.com/Overview/Working-at-Amazon-EI_IE6036.11,17.htm",Software Development Engineer,https://www.amazon.jobs/en/,interview,
