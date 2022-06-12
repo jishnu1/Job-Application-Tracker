@@ -109,8 +109,14 @@ def createTracker(vars_file):
                 line = 1
                 # iterate over all rows
                 for input_row in csv_reader:
-                    # skip header and empty rows
-                    if line == 1 or not input_row:
+                    # skip header
+                    if line == 1:
+                        line += 1
+                        continue
+                    # skip empty rows
+                    if not input_row or not input_row[6]:
+                        print(line)
+                        print("EMPTY")
                         line += 1
                         continue
                     # copy the input row as a template
