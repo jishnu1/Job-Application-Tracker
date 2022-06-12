@@ -3,5 +3,6 @@
     "OUTPUT_FILE": "template/tracker_new.csv",
     "ERROR_FILE": "template/error.csv",
     "DATA_FILE": "template/data.json",
-    "RETRIES": 3
+    "RETRIES": 3,
+    "SKIP_OLD_COMPANIES": 0
 }

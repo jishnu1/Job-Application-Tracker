@@ -95,6 +95,7 @@ def createTracker(vars_file):
     error_file = vars["ERROR_FILE"]
     data_file = vars["DATA_FILE"]
     retries = vars["RETRIES"]
+    skip_old_companies = vars["SKIP_OLD_COMPANIES"]
     data = loadDatabase(data_file)
     print("UPDATING JOB TRACKER")
     with open(input_file, encoding="utf-8") as input_file:
@@ -117,6 +118,11 @@ def createTracker(vars_file):
                     # copy the url from the correct column
                     input_url = input_row[6]
                     print(line,"\t", input_url)
+                    # depending on the user input, skip rows that already have company information
+                    if skip_old_companies and input_row[1]:
+                        print("SKIPPED")
+                        line += 1
+                        continue
                     # parse the path from the url
                     path = parsePath(input_url)
                     # if the company path is found in the database, copy the info to the output file
