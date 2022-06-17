@@ -1,6 +1,4 @@
-# Job-Application-Tracker
-
-## Instructions
+# Instructions
 
 * Install dependencies
 * Make a copy of the template folder and rename it
@@ -24,5 +22,6 @@
   * Example: href="/Overview/Working-at-Meta-EI_IE40772.11,15.htm"
 * Run job_application_tracker.py <br>
 
-## Tips
+# Tips
+
 * Upload your job application tracker to Google Sheets for more functionality
